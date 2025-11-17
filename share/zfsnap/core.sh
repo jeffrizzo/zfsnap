@@ -488,6 +488,8 @@ ValidTTL() {
 
 ## MAIN
 case "$OS" in
+    'NetBSD')
+        ;;
     'FreeBSD')
         ;;
     'SunOS')
